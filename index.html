@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="accordion">
+    <div class="content-box">
+        <div class="lable">Accordion1
+
+            <div id="plus">+</div>
+        </div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis impedit ipsa aspernatur maiores, cumque nemo explicabo excepturi numquam possimus iure dolores in nobis adipisci officiis commodi voluptatem, nostrum eius cum nisi quo quaerat? Suscipit voluptatum et, in accusamus tempore corrupti fuga laboriosam sed ullam! Facere veniam illo quisquamspernatur maiores, cumque nemo explicabo excepturi numquam possimus iure dolores in nobis adipisci officiis commodi voluptatem, nostrum eius cum nisi quo quaerat? Suscipit voluptatum et, in accusamus tempore corrupti fuga laboriosam sed ullam! Facere veniam illo quisquam assumenda distinctio ipsa, perspiciatis velit minus exercitationem cu assumenda distinctio ipsa, perspiciatis velit minus exercitationem culpa consequuntur rerum sint. Illo repudiandae accusantium magnam necessitatibus quos!</p>
+        </div>
+    </div>  
+    <div class="content-box">
+        <div class="lable">Accordion2
+            <div id="plus">+</div>
+        </div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis impedit ipsa aspernatur maiores, cumque spernatur maiores, cumque nemo explicabo excepturi numquam possimus iure dolores in nobis adipisci officiis commodi voluptatem, nostrum eius cum nisi quo quaerat? Suscipit voluptatum et, in accusamus tempore corrupti fuga laboriosam sed ullam! Facere veniam illo quisquam assumenda distinctio ipsa, perspiciatis velit minus exercitationem cunemo explicabo excepturi numquam possimus iure dolores in nobis adipisci officiis commodi voluptatem, nostrum eius cum nisi quo quaerat? Suscipit voluptatum et, in accusamus tempore corrupti fuga laboriosam sed ullam! Facere veniam illo quisquam assumenda distinctio ipsa, perspiciatis velit minus exercitationem culpa consequuntur rerum sint. Illo repudiandae accusantium magnam necessitatibus quos!</p>
+        </div>
+    </div>   
+    <div class="content-box">
+        <div class="lable">Accordion3
+            <div id="plus">+</div>
+        </div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis impedit ipsa aspernatur maiores, cumque nemo explicabo excepturi numquam possimus iure dolores in nobis adipisci officiis spernatur maiores, cumque nemo explicabo excepturi numquam possimus iure dolores in nobis adipisci officiis commodi voluptatem, nostrum eius cum nisi quo quaerat? Suscipit voluptatum et, in accusamus tempore corrupti fuga laboriosam sed ullam! Facere veniam illo quisquam assumenda distinctio ipsa, perspiciatis velit minus exercitationem cuspernatur maiores, cumque nemo explicabo excepturi numquam possimus iure dolores in nobis adipisci officiis commodi voluptatem, nostrum eius cum nisi quo quaerat? Suscipit voluptatum et, in accusamus tempore corrupti fuga laboriosam sed ullam! Facere veniam illo quisquam assumenda distinctio ipsa, perspiciatis velit minus exercitationem cucommodi voluptatem, nostrum eius cum nisi quo quaerat? Suscipit voluptatum et, in accusamus tempore corrupti fuga laboriosam sed ullam! Facere veniam illo quisquam assumenda distinctio ipsa, perspiciatis velit minus exercitationem culpa consequuntur rerum sint. Illo repudiandae accusantium magnam necessitatibus quos!</p>
+        </div>
+    </div> 
+    <div class="content-box">
+        <div class="lable">Accordion4  
+            <div id="plus">+</div>
+         </div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis impedit ipsa aspernatur maiores, cumque nemo explicabo excepturi numquam possimus iure dolores in nobis adipisci officiis commodi voluptatem, nostrum eius cum nisi quo quaerat? Suscipit voluptatum et, in accusamus tempore corrupti fuga laboriosam sed ullam! Facere veniam illo quisquam assumenda distinctio ipsa, perspiciatis velit minus exercitationem cuspernatur maiores, cumque nemo explicabo excepturi numquam possimus iure dolores in nobis adipisci officiis commodi voluptatem, nostrum eius cum nisi quo quaerat? Suscipit voluptatum et, in accusamus tempore corrupti fuga laboriosam sed ullam! Facere veniam illo quisquam assumenda distinctio ipsa, perspiciatis velit minus exercitationem cuspernatur maiores, cumque nemo explicabo excepturi numquam possimus iure dolores in nobis adipisci officiis commodi voluptatem, nostrum eius cum nisi quo quaerat? Suscipit voluptatum et, in accusamus tempore corrupti fuga laboriosam sed ullam! Facere veniam illo quisquam assumenda distinctio ipsa, perspiciatis velit minus exercitationem culpa consequuntur rerum sint. Illo repudiandae accusantium magnam necessitatibus quos!</p>
+        </div>
+    </div> 
+    </div>
+    
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+           $('.content-box').click(function(){
+            $('.content-box.open').removeClass('open')
+             $(this).addClass('open')
+           });
+           $('.content-box:first-child').addClass('open')
+    });
+</script>
+</html> 

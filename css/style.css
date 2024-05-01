@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.content-box{
+    width: 1200px;
+    margin: 0 auto;
+}
+.lable {
+    margin: 10px 0;
+    padding: 10px;
+    background: aquamarine;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.content {
+    display: none;
+}
+.content-box.open .content{
+    display: block;
+}
